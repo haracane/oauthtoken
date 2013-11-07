@@ -1,3 +1,4 @@
+require "rubygems"
 require "oauth"
 require "oauth/consumer"
 require "optparse"

@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "oauthtoken"
   spec.version       = OAuthToken::VERSION
   spec.authors       = ["Kenji Hara"]
-  spec.email         = ["hara2001@gmail.com"]
+  spec.email         = ["haracane@gmail.com"]
   spec.description   = %q{Command to get OAuth token}
   spec.summary       = %q{Command to get OAuth token}
   spec.homepage      = ""

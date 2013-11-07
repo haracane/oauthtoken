@@ -1,6 +1,13 @@
 # Oauthtoken
 
-TODO: Write a gem description
+'oauthtoken' is a command to get OAuth token.
+
+## Supported Ruby versions and implementations
+
+oauthtoken should work identically on:
+
+* Ruby 1.9.3+
+* Ruby 2.0.0+
 
 ## Installation
 
@@ -18,7 +25,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Get Authorize URL:
+
+    $ oatok --url OAUTH_URL --key CONSUMER_KEY --secret CONSUMER_SECRET
+    Authorize URL: https://api.oauth.com/oauth/authorize?oauth_token=OAUTH_TOKEN
+    Enter PIN: 
+
+Access to authorize URL and enter the displayed PIN, then get access token and access token secret:
+
+    Access Token: ACCESS_TOKEN
+    Access Token Secret: ACCESS_TOKEN_SECRET
+
+Show help:
+
+    $ oatok --help
 
 ## Contributing
 

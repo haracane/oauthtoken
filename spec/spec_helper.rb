@@ -1,2 +1,8 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'oauth_token'
+
+AUTHORIZE_URL = "https://api.twitter.com"
+CONSUMER_KEY = ENV["CONSUMER_KEY"]
+CONSUMER_SECRET = ENV["CONSUMER_SECRET"]
+ACCESS_TOKEN = ENV["ACCESS_TOKEN"]
+ACCESS_TOKEN_SECRET = ENV["ACCESS_TOKEN_SECRET"]
